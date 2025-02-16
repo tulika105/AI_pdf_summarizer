@@ -19,4 +19,6 @@ How does it work?
 - Groq API = Accessing Mistral-8x7B model
 - Hugging Face Spaces	= Deploying the web app online
 
+"C:\Users\91981\OneDrive\Pictures\Screenshots\Screenshot 2025-02-16 233301.png"
+
 Open this link to get the summary: https://huggingface.co/spaces/Tulika2000/ai-pdf-summarizer
