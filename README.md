@@ -20,4 +20,5 @@ How does it work?
 
 **Get the summary here:** https://huggingface.co/spaces/Tulika2000/ai-pdf-summarizer
 
+
 ![Screenshot 2025-02-16 233301](https://github.com/user-attachments/assets/60d787b7-5c71-44d7-a906-0af1d65db279)
