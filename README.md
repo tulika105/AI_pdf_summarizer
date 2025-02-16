@@ -11,7 +11,6 @@ How does it work?
 - This project is deployed on Hugging Face Spaces, making it accessible without installation.
 
 # 🛠️ Technologies & Frameworks Used
-# Technology	
 - Python = Main programming language
 - Gradio = Web-based UI for easy interaction
 - pdfplumber = Extracting text from PDFs
