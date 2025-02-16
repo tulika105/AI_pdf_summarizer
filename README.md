@@ -6,7 +6,7 @@ How does it work?
 - Uploads a PDF (supports files with text only).
 - Extracts only the text (ignores images without OCR).
 - Uses LangChain with Mistral-8x7B to generate a summary.
-- Allows users to choose summary **length & format**
+- Allows users to choose summary **length & format**.
 - Presents the summary in an easy-to-read format through the Gradio web interface.
 - This project is deployed on Hugging Face Spaces, making it accessible without installation.
 
