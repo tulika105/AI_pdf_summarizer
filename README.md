@@ -6,6 +6,7 @@ How does it work?
 - Uploads a PDF (supports files with text only).
 - Extracts only the text (ignores images without OCR).
 - Uses LangChain with Mistral-8x7B to generate a summary.
+- Allows users to choose summary **length & format**
 - Presents the summary in an easy-to-read format through the Gradio web interface.
 - This project is deployed on Hugging Face Spaces, making it accessible without installation.
 
@@ -13,7 +14,7 @@ How does it work?
 # Technology	
 - Python = Main programming language
 - Gradio = Web-based UI for easy interaction
-- PyPDF2 = Extracting text from PDFs
+- pdfplumber = Extracting text from PDFs
 - LangChain	= Connecting to LLMs (Mistral-8x7B)
 - Groq API = Accessing Mistral-8x7B model
 - Hugging Face Spaces	= Deploying the web app online
