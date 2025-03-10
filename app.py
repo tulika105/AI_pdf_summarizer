@@ -17,8 +17,8 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Fetch from environment variables
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY is not set. Add it in Hugging Face Secrets.")
 
-# Initialize LLM (Mistral-8x7B)
-llm = ChatGroq(model_name="mixtral-8x7b-32768")
+# Initialize LLM (llama-3.3-70b-versatile)
+llm = ChatGroq(model_name="llama-3.3-70b-versatile")
 
 def extract_text_from_pdf(pdf_file):
     """Extracts clean text from a text-based PDF while handling edge cases."""
